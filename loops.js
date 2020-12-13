@@ -16,3 +16,17 @@ n--;
 }
 return "done";
 }
+
+functin doWhileLoop(num) {
+
+incrementVariable(){
+let i = 0;
+i++;
+return i;
+}
+incrementVariable(0);
+
+do {
+console.log("I run once regardless.");
+} while (incrementVariable() < num);
+}
